@@ -1,0 +1,332 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#menu-btn {
+    width: 69px;
+    height: 52px;
+    background-image: url(../img/ハンバーガーメニュー.png);
+    background-size: 100%;
+    position: fixed;
+    right: 30px;
+    top: 25px;
+    transition: 0.4s ease-in-out;
+    z-index: 999;
+}
+
+#menu-btn:hover {
+    cursor: pointer;
+}
+
+.close {
+    background-image: url(../img/close.png) !important;
+    right: 0 !important;
+    left: 1430px;
+    width: 24px !important;
+    height: 24px !important;
+    z-index: 999;
+}
+
+#menu-navi {
+    position: fixed;
+    right: 0;
+    width: 200px;
+    background-color: rgba(189, 189, 189, 0.7);
+    height: 100vh;
+    padding: 25px;
+    transition: 0.4s ease-in-out;
+    transform: scale(0, 1);
+    opacity: 0;
+    z-index: 99;
+    font-family: "Noto Serif", serif;
+}
+
+.menu_open {
+    transform: scale(1, 1) !important;
+    opacity: 1 !important;
+}
+
+#menu-navi ul {
+    margin-top: 60px;
+}
+
+#menu-navi ul li a {
+    color: #fff;
+    font-size: 20px;
+    display: block;
+    margin-bottom: 20px;
+    font-weight: 500;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 5px;
+}
+
+#menu-navi ul li a:hover {
+    color: #B6DDF6;
+}
+
+#header {
+    /* position: relative; */
+    background-color: #EFF7F8;
+    width: 100%;
+    height: 100vh;
+}
+
+.inner-wrap {
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#bubble {
+    position: absolute;
+    top: 110px;
+    left: 266px;
+    z-index: 10;
+}
+
+#man {
+    position: absolute;
+    top: 564px;
+    left: -54px;
+    z-index: 20;
+}
+
+#rogo-title {
+    position: absolute;
+    top: 351px;
+    left: 21px;
+    z-index: 20;
+    opacity: 0;
+    animation: fadeInUp 2s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#contact h1,
+#web h1,
+#works h1 {
+    font-family: "Noto Serif", serif;
+    font-size: 40px;
+    padding-top: 60px;
+    text-align: center;
+}
+
+#web h2,
+#Graphic h2 {
+    font-family: "Noto Serif", serif;
+    font-size: 30px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+#web ul,
+#Graphic ul {
+    padding-top: 150px;
+}
+
+.webdesign,
+.Graphicdesign {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 72px;
+    padding-bottom: 28px;
+}
+
+.more {
+    padding-top: 60px;
+    text-align: center;
+}
+
+#photo {
+    padding-top: 100px;
+    padding-left: 7%;
+}
+
+#profile {
+    padding-bottom: 180px;
+}
+
+#profile-text {
+    position: absolute;
+    left: 531px;
+    top: 370px;
+}
+
+#profile h1 {
+    padding-top: 150px;
+}
+
+#profile .more {
+    padding-bottom: 100px;
+}
+
+#use p {
+    position: absolute;
+    left: 531px;
+    top: 540px;
+}
+
+#use img {
+    position: absolute;
+    left: 531px;
+    top: 565px;
+}
+
+
+#contact {
+    position: relative;
+    background-color: #EFF7F8;
+    height: 370px;
+}
+
+#contact h2 {
+    position: absolute;
+    top: 0;
+    left: 15%;
+}
+
+#contact h1 {
+    position: absolute;
+    left: 58%;
+    top: 10%;
+}
+
+#contact p {
+    font-size: 20px;
+    padding-left: 52%;
+    padding-top: 12%;
+}
+
+.sns {
+    position: absolute;
+    left: 61.5%;
+    top: 65%;
+}
+
+#header-bar-bg {
+    display: block;
+    background-color: #B6DDF6;
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    z-index: 88;
+}
+
+#footer {
+    padding-top: 72px;
+}
+
+#Graphic-header img,
+#web-header img {
+    top: 17px;
+    left: 10%;
+    position: fixed;
+    z-index: 99;
+}
+
+.section h1 {
+    position: absolute;
+    top: 180px;
+}
+
+.section h2 {
+    position: absolute;
+    top: 700px;
+}
+
+.section h2 a {
+    padding-left: 60px;
+}
+
+.section h4 {
+    position: absolute;
+    left: 517px;
+    top: 700px;
+}
+
+.section h5 {
+    position: absolute;
+    top: 2100px;
+}
+
+.text_section {
+    padding-top: 200px;
+    padding-left: 545px;
+}
+
+.text_section p {
+    font-size: 16px;
+}
+
+.text_section h3 {
+    font-size: 24px;
+}
+
+.degin_title {
+    padding-top: 13px;
+}
+
+.soft {
+    padding-top: 23px;
+    padding-bottom: 23px;
+}
+
+.section_about {
+    width: 450px;
+    padding-top: 23px;
+    line-height: 25px;
+}
+
+.meishi {
+    height: 960px;
+}
+
+.sagi {
+    height: 1152px;
+}
+
+.ohisama {
+    height: 1040px;
+}
+
+.concierg {
+    height: 580px;
+}
+
+.esport {
+    height: 950px;
+}
+
+.toilet-sign {
+    height: 650px;
+}
+
+.general-store {
+    height: 1740px;
+}
+
+.aquarium {
+    height: 1580px;
+}
+
+.moto-spot {
+    height: 1530px;
+}
+
+.school {
+    height: 2800px;
+}
+
+.rustil {
+    height: 800px;
+}
